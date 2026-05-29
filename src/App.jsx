@@ -56,9 +56,18 @@ function App() {
             >
               Upload File
             </button>
+
+            
           </div>
         </div>
-
+        <div className="box">
+          <button
+              onClick={fetchTransactions}
+              className="rounded-xl bg-slate-600 px-6 py-3 font-medium text-white transition hover:bg-slate-700"
+              >
+                Atualizar Transações
+              </button>
+        </div>
         {/* Transactions */}
         <div className="rounded-2xl bg-white p-6 shadow-lg">
           <h2 className="mb-6 text-2xl font-semibold text-slate-800">
